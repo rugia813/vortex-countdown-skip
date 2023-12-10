@@ -1,0 +1,12 @@
+{
+  "name": "vortex-countdown-skip",
+  "version": "1.0",
+  "description": "skip mod download count down",
+  "content_scripts": [
+    {
+      "matches": ["https://www.nexusmods.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
